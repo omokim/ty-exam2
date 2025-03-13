@@ -1,4 +1,5 @@
 import {omit} from 'lodash'
+import zod from 'zod'
 
 export interface Greeting {
   message: string;
@@ -27,6 +28,12 @@ export function dummy4(){
 
   const bb = omit({aa:'a'}, ['bb'])
   console.log('---', bb)
+
+  const aa = zod.number()
+  const result = aa.safeParse(1)
+  console.log('result-', result)
+
+
 }
-  
+dummy4()
 console.log("--------------")
