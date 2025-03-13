@@ -1,3 +1,5 @@
+import {omit} from 'lodash'
+
 export interface Greeting {
   message: string;
 }
@@ -22,6 +24,9 @@ export function dummy3(){
 
 export function dummy4(){
   console.log('ty-exam2 dummy3')
+
+  const bb = omit({aa:'a'}, ['bb'])
+  console.log('---', bb)
 }
   
 console.log("--------------")

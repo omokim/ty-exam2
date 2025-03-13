@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.dummy4 = exports.dummy3 = exports.dummy2 = exports.dummy = exports.Greeter = void 0;
+const lodash_1 = require("lodash");
 class Greeter {
     sayHello(name) {
         return { message: `Hello, ${name}!` };
@@ -21,6 +22,8 @@ function dummy3() {
 exports.dummy3 = dummy3;
 function dummy4() {
     console.log('ty-exam2 dummy3');
+    const bb = (0, lodash_1.omit)({ aa: 'a' }, ['bb']);
+    console.log('---', bb);
 }
 exports.dummy4 = dummy4;
 console.log("--------------");
