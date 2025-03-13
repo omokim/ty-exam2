@@ -12,4 +12,9 @@ export function dummy(){
   console.log('ty-exam2 function')
 }
 
+
+export function dummy2(){
+  console.log('ty-exam2 function')
+}
+  
 console.log("--------------")
