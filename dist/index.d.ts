@@ -8,3 +8,4 @@ export declare function dummy(): void;
 export declare function dummy2(): void;
 export declare function dummy3(): void;
 export declare function dummy4(): void;
+export declare function dummy5(): void;
