@@ -19,5 +19,9 @@ export function dummy2(){
 export function dummy3(){
   console.log('ty-exam2 dummy3')
 }
+
+export function dummy4(){
+  console.log('ty-exam2 dummy3')
+}
   
 console.log("--------------")
